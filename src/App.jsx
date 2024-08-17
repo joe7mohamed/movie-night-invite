@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './Components/Layout/Layout';
 import LoadingScreen from './Components/LoadingScreen/LoadingScreen';
 
+
 const Home = lazy(() => import('./Components/Home/Home'));
 const InteractiveForm = lazy(() => import('./Components/InteractiveForm/InteractiveForm'));
 const MovieSelection = lazy(() => import('./Components/MovieSelection/MovieSelection'));

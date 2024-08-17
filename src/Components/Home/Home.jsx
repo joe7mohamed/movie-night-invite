@@ -28,7 +28,7 @@ const HomePage = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-pink-200">
             <motion.img
-                src="/images/home.svg"
+                src="images/home.svg"
                 alt="Asking out"
                 className="w-3/4 md:w-1/2 lg:w-1/3"
                 animate={{ y: [0, -10, 0], opacity: [0.9, 1, 0.9] }}
