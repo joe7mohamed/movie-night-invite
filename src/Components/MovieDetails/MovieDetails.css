@@ -1,0 +1,27 @@
+.movie-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.movie-details-content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-details-content:hover {
+    transform: scale(1);
+}
+
+.trailer-container {
+    margin-top: 20px;
+}
